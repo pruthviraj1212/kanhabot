@@ -33,6 +33,15 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# service account credentials
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# logs
+webhook-logs.txt
+
 # vercel
 .vercel
 
